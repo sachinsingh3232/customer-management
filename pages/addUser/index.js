@@ -29,10 +29,7 @@ const index = () => {
                     phoneNumber
                 });
             if (resp.status === 200) {
-                user.name ? router.push({ pathname: `/userDetails/${user._id}`, query: {name,
-                    email,
-                    phoneNumber },
-                    `/userDetails/${user._id}`) : router.push('/')
+                router.push('/')
             }
         } catch (e) {
             setErr(true);
