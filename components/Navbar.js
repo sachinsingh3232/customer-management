@@ -15,7 +15,6 @@ const Navbar = () => {
         <div className={styles.container}>
             <li onClick={() => router.push('/')} className={styles.li}>Home</li>
             <li onClick={() => router.push('/addUser')} className={styles.li}>AddUser</li>
-            // <li onClick={logOutHandler} className={styles.li}>LogOut</li>
         </div>
     )
 }
